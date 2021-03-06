@@ -3,10 +3,10 @@ public class DMVSimulator {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to the DMV!");
-		int num = (int) (Math.random() * 100);
+		int num = (int) (Math.random() * 200);
 		System.out.println("Your number is " + num);
 		int i = 0;
-		while (i < 100)
+		while (i < 200)
 		{
 			System.out.println("Number " + i + " please come to the counter");
 			i++;
