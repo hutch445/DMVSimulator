@@ -12,7 +12,17 @@ public class DMVSimulator {
 			i++;
 		}
 		System.out.println("Number " + num + " please come to the counter");
-		System.out.println("How am I supposed to help you without any of the paperwork? Quit wasting my time.");
+		int n = (int) (Math.random()*100);
+		if (n == 99)
+		{
+			System.out.println("You do have the required paperwork");
+		}
+		else
+		{
+			System.out.println("How am I supposed to help you without any of the paperwork? Quit wasting my time.");
+		}
+		
+		
 	}
 
 }
