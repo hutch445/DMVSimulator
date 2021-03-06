@@ -12,7 +12,7 @@ public class DMVSimulator {
 			i++;
 		}
 		System.out.println("Number " + num + " please come to the counter");
-		System.out.println("How am I supposed to help you without any of the paperwork? Quit wasting my time.");
+		System.out.println("How am I supposed to help you without any of the paperwork? Quit wasting my time. Mwa ha ha!");
 	}
 
 }
